@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.galeria__contenedor{
+    text-align: center;
+}
+
+.galeria>h1{
+    color: tomato;
+    text-align: center;
+}
+
+.tarjetas > h1{
+    text-align: center;
+}
+
+.tarjetas{
+    background-color: bisque;
+    width: 250px;
+    height: 370px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.imagen{
+    width: 100%;
+    height:300px;
+}
+
+.tarjetas--color{
+    color: white;
+    background-color: brown;
+}
