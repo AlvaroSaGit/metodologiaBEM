@@ -7,4 +7,14 @@
     height: 50px;
     width: 100%;
     background-color: cyan;
+    position: relative;
+}
+.header__navigation{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+.header__navigation--rojo{
+    background-color: red;
 }
