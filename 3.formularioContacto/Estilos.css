@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+}
+
+.formulario__contenedor{
+    padding: 5px;
+}
