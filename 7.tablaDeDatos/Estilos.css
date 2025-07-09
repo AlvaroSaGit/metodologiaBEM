@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* TODA LA PARTE DEL HEADER */
+.header{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: tomato;
+    color: white;
+}
+
+.header > p{
+    font-size: 2rem;
+}
+/* MAIN */
+.main__texto{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.main__texto > p{
+    margin-top: 20px;
+}
+
+.main{
+    text-align: center;
+    margin-top: 30px;
+}
+/* TABLA DE DATOS */
+.tablaDatos *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tablaDatos{
+    margin: 0 auto;
+    background-color: brown;
+    border-radius: 8px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+.tablaDatos__head{
+    color: white;
+}
+
+.tablaDatos__trhead{
+    cursor: pointer;
+}
+
+.tablaDatos__trbody:hover{
+    background-color: tomato;
+}
