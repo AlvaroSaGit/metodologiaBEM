@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: tomato;
+    text-align: center;
+}
+
+.header__navegar{
+    margin: 0px 30px;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.main{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.main__texto>h1{
+    margin-bottom: 40px;
+}
+
+.main__texto>p{
+    width: 30%;
+    margin: 0 auto;
+}
