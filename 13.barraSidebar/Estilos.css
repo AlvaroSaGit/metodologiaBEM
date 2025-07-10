@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main__sidebar,.main__cuerpo{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* SIDEBAR */
+.main__sidebar{
+  background-color:darkred;
+  width: 20%;
+  height: 100vh;
+  text-align: center;
+}
+
+.sidebar__titulo{
+  padding-top: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.sidebar__boton{
+  display: block;
+  text-decoration: none;
+  margin: 20px auto;
+  color: #502e27;
+  font-size: 1.2rem;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/*CUERPO*/
+.main__cuerpo{
+  width: 79%;
+}
+
+.main__titulo{
+  text-align: center;
+  font-size: 2rem;
+  margin: 30px 0px;
+  text-shadow: 1px 1px darkred;
+}
+
+.main__texto{
+  text-align: center;
+}
