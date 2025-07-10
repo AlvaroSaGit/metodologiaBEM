@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+  position: relative;
+}
+/* DISPLAY INLINE BLOCK */
+.main__sidebar,.main__cuerpo{
+  display: inline-block;
+}
+/* SIDEBAR */
+.main__sidebar{
+  background-color: tomato;
+  width: 20%;
+  height: 100vh;
+  text-align: center;
+}
+
+.sidebar__titulo{
+  color: white;
+}
+
+.sidebar__boton{
+  display: block;
+  text-decoration: none;
+  margin: 20px auto;
+  color: #502e27;
+  font-size: 1.2rem;
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* CUERPO */
+.main__cuerpo{
+  vertical-align: top;
+}
+
+.main__imagen{
+  display: none;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 12px 20px tomato;
+}
+
+.main__texto{
+  margin-top: 40px;
+}
+.main__texto p{
+  width: 50%;
+}
+
+#Gato:target,#Halo:target,#Joker:target{
+  display: block;
+}
