@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+  text-align: center;
+  background-color: rgb(232, 232, 232);
+}
+
+.main__titulo{
+  margin: 50px 0px;
+}
+
+.main__texto{
+  width:50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.estrella{
+  display: inline-block;
+  color: black;
+  font-size: 2rem;
+}
+
+.estrella:hover{
+  color: red;
+}
+
+.estrella:hover ~ .estrella{
+  color:red;
+}
